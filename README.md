@@ -14,10 +14,10 @@ Create a registration page that simulates a real-world service, applying best pr
 ## 🖼️ Previews
 
 ### 💻 Desktop Version
-![Sign-Up Form Desktop](./assets/landscape_version.png.jpeg.png)
+![Sign-Up Form Desktop](./assets/landscape_version.jpeg)
 
 ### 📱 Mobile Version
-![Sign-Up Form Mobile](./assets/mobile_version.png.jpeg.png)
+![Sign-Up Form Mobile](./assets/mobile_version.jpeg)
 
 ## 🛠️ Technologies Used
 
