@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/mobile.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div id="main_part1"><div id="background_img"></div>
+        
+        <div id="logo">
+            <img src="/assets/odin-lined.png" alt="logo">
+            <h1>ODIN</h1>
+        </div>
+    </div>
+    <div id="main_part2">
+        <div id="reduction">
+            <div class="second_div" id="second_div1">
+                <p>
+                    This is not a real online service! You need something like this in your life to help you realize
+                    your deepest dreams. Sign up now to get started.
+                </p>
+                <p id="desire">You know you want to.</p>
+            </div>
+            <div class="second_div" id="second_div2">
+                <h2>Let's do this!</h2>
+                <form action="/index.html" id="form">
+                    <div class="input_div">
+                        <div>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="first_name" id="first_name" required>
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" minlength="8" required>
+                        </div>
+                    </div>
+                    <div class="input_div">
+                        <div>
+                            <label for="first_name">LAST NAME</label>
+                            <input type="text" name="last_name" id="last_name" required>
+                        </div>
+                        <div>
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="number" name="phone_number" id="phone_number" required>
+                        </div>
+                        <div>
+                            <label for="con_password">CONFIRM PASSWORD</label>
+                            <input type="con_password" name="con_password" id="con_password" minlength="8" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="second_div" id="second_div3">
+                <button type="submit" form="form">Create Account</button>
+                <small>Already have an account? <a href="#">Login in</a></small>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

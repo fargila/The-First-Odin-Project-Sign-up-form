@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    #logo {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    #main_part1, #main_part2 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second_div {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    #second_div1 > p{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    #second_div2 > form {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .input_div > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-right: 0;
+        font-size: 1.3rem;
+    }
+
+    .input_div > div > input {
+        width: 60%;
+        padding: 1rem;
+    }
+
+    #second_div2 > h2 {
+        font-size: 2.1rem;
+    }
+    
+    #second_div3 > button {
+        font-size: 2rem;
+    }
+
+    small {
+        font-size: 1.8rem;
+    }
+}
