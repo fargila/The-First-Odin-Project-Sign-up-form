@@ -17,7 +17,7 @@ Create a registration page that simulates a real-world service, applying best pr
 ![Sign-Up Form Desktop](./assets/landscape_version.jpeg)
 
 ### 📱 Mobile Version
-<img src="./assets/sign-up-form-mobile.png" alt="Mobile Version" width="300"/>
+<img src="./assets/mobile_version.jpeg" alt="Mobile Version" width="300"/>
 
 
 ## 🛠️ Technologies Used
