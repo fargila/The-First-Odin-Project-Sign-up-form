@@ -11,6 +11,12 @@ Create a registration page that simulates a real-world service, applying best pr
 - Custom styling with fonts and spacing
 - Clear visual hierarchy and basic accessibility
 
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/fargila/The-Second-Odin-Project-Admin-Dashboard.git
+
 ## 🖼️ Previews
 
 ### 💻 Desktop Version
